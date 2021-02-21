@@ -1,0 +1,53 @@
+/**
+ * Title: style.scss
+ * Author: Sarah Massie
+ * Date: 30 January 2021
+ * Description: Sass styling sheets
+*/
+
+// importing the dark-theme from _theme.scss
+@import './theme';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// define our colors below
+.blue {
+  color: #2196F3;
+}
+
+.green {
+  color: #66BB6A;
+}
+
+// give styling to our attribution link
+.attribution-link {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution-link:hover {
+  text-decoration: underline;
+}
+
+// giving styling to our card
+.card-title-icon {
+  text-align: center;
+}
+
+.card-title-icon, .mat-icon {
+  font-size: 72px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

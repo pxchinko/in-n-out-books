@@ -1,0 +1,12 @@
+/**
+ * Title: wishlist-create.component.css
+ * Author: Sarah Massie
+ * Date: 6 February 2021
+ * Description: Wishlist create styling sheets
+*/
+
+.wishlist-create-form {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}

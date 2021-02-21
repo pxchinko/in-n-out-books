@@ -1,0 +1,13 @@
+/**
+ * Title: books-details-dialog.component.scss
+ * Author: Sarah Massie
+ * Date: 30 January 2021
+ * Description: Books Details styling sheet
+*/
+
+.book-details {
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: lighter;
+}

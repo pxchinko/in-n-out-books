@@ -1,0 +1,15 @@
+/**
+ * Title: book-list.component.css
+ * Author: Sarah Massie
+ * Date: 30 January 2021
+ * Description: Css styling sheets
+*/
+
+.a-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}

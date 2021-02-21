@@ -1,0 +1,45 @@
+<!-- /**
+ * Title: app.component.html
+ * Author: Sarah Massie
+ * Date: 30 January 2021
+ * Description: App page component
+*/ -->
+
+<!-- navigation -->
+<mat-toolbar class="toolbar">
+  <mat-toolbar-row>
+    <div class="logo">
+      <img src=".././assets/logo.png" height="50">
+    </div>
+
+    <div style="width: 80%">
+      <div fxLayout="row wrap" fxLayoutAlign="end start">
+        <button mat-button routerLink="/book-list">Book List</button>
+        <button mat-button routerLink="/contact">Contact</button>
+        <button mat-button routerLink="/about">About</button>
+        <button mat-button routerLink="/wishlist">Wishlist</button>
+      </div>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<br />
+
+<div fxLayout="row wrap">
+  <div fxFlex>
+    <mat-card class="main-container">
+      <mat-card-title class="blue">
+        {{ assignment }}
+      </mat-card-title>
+
+      <br />
+      <br />
+
+      <mat-card-content>
+        <router-outlet>
+          <!-- content of the app's components -->
+        </router-outlet>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
